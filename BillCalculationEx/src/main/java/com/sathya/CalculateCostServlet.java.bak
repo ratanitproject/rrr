@@ -17,8 +17,6 @@ public class CalculateCostServlet extends HttpServlet {
 		double proCost = Double.parseDouble(request.getParameter("proCost"));
 		int quantity = Integer.parseInt(request.getParameter("quantity"));
 
-		hi ratan sir how are you 
-		please tack care about subject
 		double totalCost = proCost * quantity;
 		double discount = 0;
 		String discountMessage = "No discount";
