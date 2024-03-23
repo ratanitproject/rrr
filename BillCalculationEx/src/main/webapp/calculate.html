@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Cost Calculator</title>
+</head>
+<body bgcolor="aqua" style="text-align: center;">
+	<h1>Product Cost Calculator</h1>
+	<form method="get" action="CalculateCostServlet">
+	Product Name:<input type="text" name="proName" required><br><br>
+
+	Product Cost:<input type="number" name="proCost" min="0" required><br><br>
+
+	Product Quantity:<input type="number" name="quantity" id="quantity" min="0" required><br><br>
+
+	<button type="submit">Print Invoice</button>
+	</form>
+</body>
+</html>
